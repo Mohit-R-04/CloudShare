@@ -1,1 +1,6 @@
 /Users/mohitreddy/Documents/CloudShare-Max/backend/src/main/java/com/mohitreddy/fileshare/CloudshareApplication.java
+/Users/mohitreddy/Documents/CloudShare-Max/backend/src/main/java/com/mohitreddy/fileshare/controller/ProfileController.java
+/Users/mohitreddy/Documents/CloudShare-Max/backend/src/main/java/com/mohitreddy/fileshare/document/Profile.java
+/Users/mohitreddy/Documents/CloudShare-Max/backend/src/main/java/com/mohitreddy/fileshare/dto/ProfileDTO.java
+/Users/mohitreddy/Documents/CloudShare-Max/backend/src/main/java/com/mohitreddy/fileshare/repository/ProfileRepo.java
+/Users/mohitreddy/Documents/CloudShare-Max/backend/src/main/java/com/mohitreddy/fileshare/service/ProfileService.java
