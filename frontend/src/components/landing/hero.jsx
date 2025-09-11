@@ -3,7 +3,7 @@ import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { ArrowRight, Shield, Zap, Globe } from 'lucide-react';
 
-const HeroSection = () => {
+const HeroSection = ({openSignIn, openSignUp}) => {
   return (
     <section className="relative overflow-hidden bg-gradient-to-br from-slate-50 via-white to-blue-50">
       {/* Background Pattern */}
@@ -55,12 +55,12 @@ const HeroSection = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
-            <Button size="lg" className="px-8 py-4 text-lg font-semibold bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 shadow-lg hover:shadow-xl transition-all duration-300">
+            <Button onClick={() => openSignUp()} size="lg" className="px-8 py-4 text-lg font-semibold bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 shadow-lg hover:shadow-xl transition-all duration-300">
               Get Started Free
               <ArrowRight className="ml-2 w-5 h-5" />
             </Button>
-            <Button variant="outline" size="lg" className="px-8 py-4 text-lg font-semibold border-2 hover:bg-slate-50 transition-all duration-300">
-              Watch Demo
+            <Button onClick={() => openSignIn()} variant="outline" size="lg" className="px-8 py-4 text-lg font-semibold border-2 hover:bg-slate-50 transition-all duration-300">
+              Sign In
             </Button>
           </div>
 

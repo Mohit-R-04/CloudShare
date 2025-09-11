@@ -4,7 +4,7 @@ import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import { Badge } from '@/components/ui/badge';
 import { Star, Quote } from 'lucide-react';
 
-const TestimonialSection = () => {
+const TestimonialSection = ({ openSignUp }) => {
   const testimonials = [
     {
       name: "Sarah Chen",
@@ -183,11 +183,8 @@ const TestimonialSection = () => {
               Start your free trial today and experience the difference that enterprise-grade security makes.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="px-8 py-3 bg-white text-blue-600 font-semibold rounded-lg hover:bg-blue-50 transition-colors">
+              <button onclick={() => openSignUp()} className="px-8 py-3 bg-white text-blue-600 font-semibold rounded-lg hover:bg-blue-50 transition-colors">
                 Start Free Trial
-              </button>
-              <button className="px-8 py-3 border-2 border-white text-white font-semibold rounded-lg hover:bg-white hover:text-blue-600 transition-colors">
-                Schedule Demo
               </button>
             </div>
           </div>
