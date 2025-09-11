@@ -85,5 +85,12 @@ public class ProfileService {
     public Boolean existByClerkId(String id) {
         return profileRepo.existsByClerkId(id);
     }
+
+    public void deleteProfile(String clertId) {
+        Profile profile = profileRepo.findByClerkId(clertId);
+        if (profile != null) {
+            profileRepo.delete(profile);
+        }
+    }
 }
 
