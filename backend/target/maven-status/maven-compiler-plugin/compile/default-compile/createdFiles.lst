@@ -1,6 +1,8 @@
 com/mohitreddy/fileshare/CloudshareApplication.class
 com/mohitreddy/fileshare/document/Profile.class
+com/mohitreddy/fileshare/config/securityConfig.class
 com/mohitreddy/fileshare/dto/ProfileDTO.class
+com/mohitreddy/fileshare/security/ClerkJwksProvider.class
 com/mohitreddy/fileshare/service/ProfileService.class
 com/mohitreddy/fileshare/controller/ProfileController.class
 com/mohitreddy/fileshare/document/Profile$ProfileBuilder.class
