@@ -76,6 +76,6 @@ public class ClerkJwtAuthFilter extends OncePerRequestFilter{
         } else {
             response.sendError(HttpServletResponse.SC_UNAUTHORIZED, "Unauthorized: Missing or invalid Authorization header");
             return;
-        }
+        }          
     }
 }   
