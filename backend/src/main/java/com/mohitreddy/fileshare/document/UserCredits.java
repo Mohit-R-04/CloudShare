@@ -8,7 +8,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@Document(collation = "user_credits")
+@Document(collection = "user_credits")
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
